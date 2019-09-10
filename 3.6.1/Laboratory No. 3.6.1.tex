@@ -18,59 +18,39 @@
  
 \begin{document}
 \begin{titlepage}
-
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
-
-\center % Center everything on the page
- 
-%----------------------------------------------------------------------------------------
-%	HEADING SECTIONS
-%----------------------------------------------------------------------------------------
-
-\textsc{\LARGE Московский Физико-Технический Институт}\\[1,5cm] % Name of your university/college
-\textsc{\Large Кафедра общей физики}\\[0.5cm] % Major heading such as course name
-\textsc{\large Лабораторная работа \textnumero  3.6.1}\\[0.5cm] % Minor heading such as course title
-
-%----------------------------------------------------------------------------------------
-%	TITLE SECTION
-%----------------------------------------------------------------------------------------
-
-\HRule
-\\[0.4cm]
-{ \huge \bfseries Спектральный анализ электрических сигналов}
-\\[0.2cm] % Title of your document
-\HRule
-\\[1.5cm]
+\centering
+%University
+\textsc{\LARGE Московский Физико-Технический Институт\\[0.1cm] \large(государственный университет)}\\[1.0cm]
+\textsc{\Large Кафедра общей физики}\\[0.5cm]
+\textsc{\large Лабораторная работа 3.6.1}\\[1.0cm]
 
 
- 
-%----------------------------------------------------------------------------------------
-%	AUTHOR SECTION
-%----------------------------------------------------------------------------------------
+%Name
+\hrulefill 
 
-\begin{minipage}{0.4\textwidth}
-	\begin{flushleft} \large
-		\emph{Автор:}\\
-		Ришат \textsc{Исхаков} \\
-		513 группа
-	\end{flushleft}
-\end{minipage}
-~
-\begin{minipage}{0.4\textwidth}
-	\begin{flushright} \large
-		\emph{Преподаватель:} \\
-		Александр Александрович \textsc{Казимиров} % Supervisor's Name
-	\end{flushright}
-\end{minipage}
+\textsc{\\[0.6cm] \LARGE \textbf{Спектральный анализ электрических сигналов} }\\[0.6cm] 
 
-\begin{bottompar}
-	\begin{center}
-		\includegraphics[width = 80 mm]{logo.jpg}
-	\end{center}
-	{\large \today}
+\hrulefill
 
-\end{bottompar}
-\vfill % Fill the rest of the page with whitespace
+
+
+\begin{flushleft}
+	\begin{minipage}{0.5\textwidth}
+		\textsc{\large Выполнили: \\Ткаченко Сергей, \\ Кукуджанов Алексей}\\
+		 %\textsc{\large Установка №1}
+	\end{minipage}
+\end{flushleft}
+
+
+\begin{figure}[b!]
+	\centering
+		\includegraphics[width = 0.8\textwidth]{Im1.jpg}\\
+		\today
+\end{figure}
+
+
+
+
 
 \end{titlepage}
 
@@ -147,7 +127,7 @@ $$
 
 \begin{figure}[H]
 \centering
-\includegraphics[width = 0.8\textwidth]{schemeA}
+\includegraphics[width = 0.8\textwidth]{SchemeA}
 \caption{Схема для исследования спектра периодической последовательности прямоугольных импульсов}
 \label{img:scheme A}
 \end{figure}
@@ -203,7 +183,7 @@ a_n = \frac{2}{T}\int\limits_{ -\frac{\tau}{2} } ^ {\frac{\tau}{2} } V_0\cos(\om
 
 \begin{figure}[H]
 \centering
-\includegraphics[width = 0.8\textwidth]{schemeB}
+\includegraphics[width = 0.8\textwidth]{SchemeB}
 \caption{Схема для исследования спектра периодической последовательности цугов высокочастотных колебаний}
 \label{img:scheme B}
 \end{figure}
@@ -261,7 +241,7 @@ $\sigma \delta \nu$      & 0,12 & 0,47 & 0,83 & 0,94 & 0,83 & 0,62 & 0,89 & 1,02
 
 \begin{figure}[H]
 \centering
-\includegraphics[width = 0.8\textwidth]{schemeC}
+\includegraphics[width = 0.8\textwidth]{SchemeC}
 \caption{Схема для исследования спектра гармонических сигналов, модулированных по амплитуде}
 \label{img:scheme C}
 \end{figure}
